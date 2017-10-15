@@ -1,0 +1,46 @@
+Hide and Seek Floogals is a Browser Game, and may eventually be a browser game  
+The objective is to put together the Floogals picture from the puzzle pieces
+
+{Potential package:>> Javascript, MongoDb, CSS3, HTML5, HTML Canvas,  Reactive X (maybe)}
+
+
+1. Show Player the Objective Picture
+2. When player presses play the picture will shuffle into pieces randomly skattered around the page
+3. the player then selects pieces and drags them to fill in the missing pieces
+4. If the piece is correct then say something smart or fireworks or something Floogal like
+5. If the piece is incorrect shake the page, turn colors and foghorn(? too much?)
+6. When all peices are complete, throw a Floogal party playing the theme song and gift the player a present
+7. Personal objective, I am trying to see how well ik coding by starting with large pieces, the move on to smaller pieces if successful
+8. Consider making both small and large piece modes for older and younger kids. 
+9. If a hit, add more puzzles  ---> branch out to other cartoons etc
+10. Score will also be kept for kicks i guess
+
+Organization
+
+Picture
+Use --- > //HideNSeekFloogals.png
+
+DOM
+Chop the picture into 8 - 10 peices (visually do this with Snagit)
+The picture on the document will actually be a grid made up of buttons, it will actually be 8 buttons
+The puzzle picture piece will be labled, 1 - 8(10)a, 
+The grid peice will be labeled 1-8(10)b to correspond with its a counter part
+consider arrays for this
+When the player drags/hovers the correct/matching piece to the button that will trigger the "right" response action, update the score and 
+**RISK**
+    what is the JS function for on drag  >> not sure how to accomplish this
+
+images may have 3 states
+    -inital (full picture all buttons hidden)
+    -inPlay (Gray hint piece)
+    -Solved (after correct hover, added piece to grid - full color)
+
+    pieces also have a randomized sort to the side of the page (hmmm     --- how to?)
+
+alternate
+image and image replace on correct hover
+grid black and white replace with grid color (Floogal) on correct hover
+
+
+
+Initial Shuffle

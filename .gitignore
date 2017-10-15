@@ -1,0 +1,6 @@
+/*/  Files to be ignored on commit  /*/
+
+/.ignore/*
+*/.ignore/*
+
+.ignore/*

@@ -1,0 +1,92 @@
+/*/ Style Guide:   Hide and Seek Floogals /*/
+/*/`               Theme                    /*/
+/*
+
+ Colors:
+
+Fonts:
+
+____________________________*/
+
+.mainContainer {
+    font-size: 20px;
+}
+
+/*          Nav Box         */
+
+.navBox {    
+    margin: 3em -1em;
+    padding: 4em 2em;
+    border: 1em solid orangered;
+    background-image: url("../../src/images/HideNSeekFloogals.png");
+}
+
+
+
+
+/*/  FOOTER  /*/
+
+
+
+    /* Footer css */
+
+    /*/             FOOTER         /*/
+    
+    .footer {
+        
+           font-family: 'Playfair Display', serif;
+           color:white;
+           padding-bottom: 1em;
+           text-align: center;
+           font-size: 1.3em;
+           font-weight: 500;
+           background-color: #525252;
+           text-shadow: .2px .3px white;
+           line-height: 1.5px;
+           letter-spacing: 7px;
+           width: 100%;
+           clear: both;
+       
+       
+       }
+       
+       .footerLine {   
+       
+           border: .2em outset #4bc259;
+           margin-bottom: .05px;
+           padding: 0;
+       }       
+       
+       footer a {
+       
+           text-decoration: none;
+           color:white;
+       }
+       
+       footer a:hover, .sloganB {
+       
+           color: #4bc259;
+           font-style: italic;
+       }
+       
+       /* Social Icons & Contact */
+       
+       img.social {
+           padding-top: 35px;
+           overflow: hidden;
+       }
+       
+       p.contactMe {
+           font-family: 'Playfair Display', serif;
+           margin-top: -1.3em;
+           font-weight:    500;
+       }
+       
+       
+       .footerLineBottom {   
+           
+               border: .2em outset #4bc259;
+               margin: 0;
+               padding: 0;
+           }       
+       

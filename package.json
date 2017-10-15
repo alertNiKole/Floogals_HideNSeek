@@ -1,0 +1,11 @@
+{
+  "name": "4_floogals_hidenseek",
+  "version": "1.0.0",
+  "description": "A puzzle game made with Javascript, HTML and CSS for children 3-7 years old to play on the PC.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NiKole Maxwell | nvy.io",
+  "license": "MIT"
+}
